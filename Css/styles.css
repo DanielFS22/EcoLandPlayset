@@ -186,3 +186,25 @@ p {
 .cta-button a:hover {
     background-color: #45a049;
 }
+
+@media screen and (max-width: 1024px){
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+    }
+
+    .conheça2 {
+        width: 80%;
+        height: auto;
+    }
+
+    .conheça2 img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .card{
+        width: 70%;
+    }
+}
